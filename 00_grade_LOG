@@ -1,0 +1,27 @@
+################### input-19##################
+###    Warning Diff:    .....
+4c4,7
+< Warning: Module 3: X31 too big 5 (max=2) assume zero relative
+---
+> Warning: Module 3: X31 too big 23 (max=20) assume zero relative=0  
+> Warning: Module 3: X31 too big 23 (max=20) assume zero relative=0  
+> Warning: Module 3: X31 too big 23 (max=20) assume zero relative=0  
+> Warning: Module 3: X31 too big 23 (max=20) assume zero relative=0  
+###    Code/Error Diff: .....
+
+################### input-20##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+1c1
+< Parse Error line 3 offset 3: NUM_EXPECTED
+---
+> Parse Error line 3 offset 1: NUM_EXPECTED
+
+################### input-29##################
+###    Warning Diff:    .....
+1c1
+< Warning: Module 3: X31 too big 10 (max=0) assume zero relative
+---
+> Warning: Module 3: X31 too big 15 (max=5) assume zero relative
+###    Code/Error Diff: .....
+

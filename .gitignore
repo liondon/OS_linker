@@ -1,5 +1,8 @@
 /.vscode
 
+/lab1samples
 /TestData
+/TestOutput
 
 *.exe
+*.zip

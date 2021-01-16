@@ -1,11 +1,12 @@
 #include "tokenizer.h"
 
-int main()
+int main(int argc, char *argv[])
 {
-  FILE *input = fopen("TestData/testInput.txt", "r");
-  for (int i = 0; i < 55; i++)
+  FILE *input = fopen(argv[1], "r");
+  while (!feof(input))
   {
-    getToken(input);
+    Token tok = getToken(input);
+    tok.__printToken();
   }
   return 0;
 }
